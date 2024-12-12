@@ -1,0 +1,35 @@
+// src/components/Modal.scss
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    P {
+        font-size: 18px;
+    }
+    h2 {
+        margin-top: 10px;
+        display: inline-flex; /* Sử dụng flexbox để căn giữa nội dung */
+        justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+        align-items: center; /* Căn giữa nội dung theo chiều dọc */
+        width: 50px; /* Đặt chiều rộng */
+        height: 50px; /* Đặt chiều cao */
+        border-radius: 50%; /* Để tạo hình tròn */
+        background-color: var(--color-green); /* Màu nền (có thể thay đổi) */
+        color: var(--color-white); /* Màu chữ */
+        font-size: 24px; /* Kích thước chữ */
+        text-align: center; /* Căn giữa chữ */
+    }
+}

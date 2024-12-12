@@ -1,0 +1,128 @@
+.cart-wrapper {
+    margin: 100px 50px;
+    position: relative;
+    min-height: 70vh;
+}
+.cart-title {
+    border-bottom: 1px solid var(--color-green);
+    width: 65%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cart-items {
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    border-bottom: 1px solid var(--color-green);
+    margin-bottom: 10px;
+}
+.cart-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.cart-item-center {
+    margin-left: 10px;
+    height: 90px;
+    position: relative;
+    width: 30%;
+    .cart-name {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .cart-price {
+        color: var(--color-red);
+    }
+}
+.quantity-control {
+    width: 30%;
+    .btn-cart-giam,
+    .btn-cart-tang {
+        padding: 5px;
+        margin: 0 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+.remove-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border: none;
+    &:hover {
+        background-color: var(--color-green-hover);
+        cursor: pointer;
+    }
+}
+.cart-right {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    height: auto;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid var(--color-green);
+    border-radius: 5px;
+    .cart-header-right-info,
+    .cart-header-right-sum {
+        padding: 5px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid var(--color-green);
+    }
+    .cart-header-right-sum {
+        position: relative;
+        font-size: 18px;
+        .value {
+            position: absolute;
+            color: var(--color-red);
+            right: 0;
+            font-size: 20px;
+        }
+    }
+}
+.cart-center {
+    padding: 5px;
+    p {
+        margin-bottom: 5px;
+    }
+    .note-cart {
+        width: 100%;
+        height: 150px;
+        border: 1px solid #ccc;
+        outline: none;
+        &:focus {
+            border-color: var(--color-green);
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+            outline: none;
+        }
+    }
+}
+.cart-footer {
+    justify-content: center;
+    .cart-footer-btn {
+        color: var(--color-white);
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        background-color: var(--color-green);
+        &:hover {
+            background-color: var(--color-green-hover);
+            cursor: pointer;
+        }
+    }
+}
+.link-product {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    &:hover {
+        color: var(--color-green);
+    }
+}

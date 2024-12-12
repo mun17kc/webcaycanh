@@ -1,0 +1,106 @@
+.contact_container {
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.contact_container_info {
+    display: flex;
+    margin: 0 17%;
+    justify-content: space-between;
+    height: auto;
+}
+.contact_gg_map {
+    margin-top: 100px;
+    padding-top: 35%;
+    background: url('../../asset/slider/map.jpg');
+    background-position: top center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.contact_left {
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.contact_h2 {
+    color: var(--color-green);
+    padding-bottom: 20px;
+}
+.contact_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact_input label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.contact_input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    &:focus {
+        border-color: var(--color-green);
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+        outline: none;
+    }
+}
+.contact_input textarea {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    height: 120px; /* Tăng chiều cao theo mong muốn */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    resize: vertical;
+    &:focus {
+        border-color: var(--color-green);
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+        outline: none;
+    } /* Cho phép người dùng thay đổi chiều cao nếu muốn */
+}
+.contact_button {
+    display: flex;
+}
+.contact_btn {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 10px 20px;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color-green-hover);
+    }
+}
+.contact_h1 {
+    color: var(--color-green);
+    padding-bottom: 20px;
+}
+.contact_info {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+.contact_info_list {
+    font-size: 18px;
+
+    label {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    p {
+        padding-top: 7px;
+        margin-left: 30px;
+    }
+}

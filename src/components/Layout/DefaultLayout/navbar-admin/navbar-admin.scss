@@ -1,0 +1,46 @@
+.admin-nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: var(--color-black);
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    ul a {
+        list-style-type: none;
+        text-decoration: none;
+        color: var(--color-white);
+        font-weight: bold;
+        &:hover {
+            color: var(--color-green);
+        }
+        i {
+            font-size: 18px;
+            line-height: 50px;
+            margin-right: 5px;
+        }
+    }
+    .admin-icon {
+        font-size: 24px;
+        line-height: 0px;
+        margin: 0 40px;
+        color: var(--color-white);
+        &:hover {
+            color: var(--color-green);
+        }
+    }
+    button {
+        padding: 10px 15px;
+        background-color: var(--color-green);
+        border: none;
+        border-radius: 5px;
+        color: var(--color-white);
+        margin-right: 60px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: var(--color-green-hover);
+        }
+    }
+}
